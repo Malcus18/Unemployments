@@ -46,17 +46,29 @@ PowerBi
 Changing from decimals to whole Numbers and Report Making.
 
 ```
-##REPORTS AND VISUALIZATION
+## REPORTS AND VISUALIZATION
 
 ![UNE](https://github.com/user-attachments/assets/7ec4a12b-b362-41f3-9626-51b205846b04)
 
 
 ![UNEEEE](https://github.com/user-attachments/assets/0c3b6209-2d96-4503-bf05-025b0c02ab71)
 
-###RESULTS AND FINDING
+### RESULTS AND FINDING
 The analysis results are sumarised as follows:
 
-1. France has the highest number of active memebers to the training  with a total number of 47627 active members while Geramany has the least number of active subscribers to the training.
-2. The youth are more of the training active members in france.
-3. Male youth are more of the active members in the training.
+1. Indinesia has the highest level of poverty per house hold yet having the highest secondary school enrolloment. However, the United States has the lowest poverty per house hold and lowest secondary school enrolloment though it has been increasing between 2022 and 2023.
+2. Turkey has the highest rate of migrationa and net migration which was very high in 2004.
+3. Brazil has the least amount of migration rate and high net migration.
+### Recommendation
+Based on the analysis, We recommend the following:
+- There should more practicle courses included in indonesia education system based on skills.
+- Investment in the tourism sector should be boosted to encourage productive and meaningfull migration.
+- More job opportunities should be created in various countries to reduce poverty rate per house hold.
+### Limitations
+I had to remove some unrelevant columns.
+This did not affect the results in anyway.
+I also had to remove the outliers since they would affect the accurancy of my results.
+### Reference
+[w3schools](https://www.w3schools.com/excel/excel_charts_radar.php)
 
+[Databank](https://data.worldbank.org/)
