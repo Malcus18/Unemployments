@@ -100,7 +100,8 @@ SELECT TOP (1000) [Year]
 	DELETE FROM Work WHERE Country IS NULL;
 
 PowerBi
-Changing from decimals to whole Numbers and Report Making.
+Transforming the dataset by changing from decimals to whole Numbers and Report Making.
+Creating visualizations and dashboards.
 
 ```
 ## REPORTS AND VISUALIZATION
