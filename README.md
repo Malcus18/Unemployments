@@ -34,7 +34,64 @@ EDA Involved the training data to answer key questions, such as:
 For grouping
 
 SQL
-SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR,CAST(SI_POV_NAHC AS INT) ASSI_POV_NAHC_No_Decimals
+SELECT TOP (1000) [Year]
+      ,[Country]
+      ,[PGDP]
+      ,[Gross capital formation (% of GDP) (NE#GDI#TOTL#ZS)]
+      ,[NY_GDP_DEFL_KD_ZG)]
+      ,[Net_migration]
+      ,[Population_total]
+      ,[PPrimarycompletionrate]
+      ,[Primary completion rate, total (% of relevant age group) (SE#PRM]
+      ,[SE_ENR_PRSC_FM_ZS]
+      ,[SI_POV_NAHC]
+      ,[SE_SEC_ENRR]
+      ,[School enrollment, secondary (% gross) (SE#SEC#ENRR)]
+      ,[PGDP1]
+  FROM [PortifolioProject].[dbo].[Work]
+
+  
+  SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2014 
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2015
+
+  SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2016 
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2017
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2018
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2019
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2020
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2021
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where Year = 2022
+
+  SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR
+  FROM Work
+  Where SE_SEC_ENRR IS NOT NULL AND SI_POV_NAHC IS NOT NULL 
+
+   SELECT Country, Year,PGDP,SE_SEC_ENRR,Net_migration,Population_total,PPrimarycompletionrate,SE_ENR_PRSC_FM_ZS,SI_POV_NAHC,SE_SEC_ENRR,CAST(SI_POV_NAHC AS INT) ASSI_POV_NAHC_No_Decimals
     FROM Work
 	Where SE_SEC_ENRR IS NOT NULL AND SI_POV_NAHC IS NOT NULL
 
